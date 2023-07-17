@@ -3,7 +3,7 @@ entries:
   hypershift-agent-template:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-07-17T15:09:23.751557667+03:00"
+    created: "2023-07-17T15:13:37.979335261+03:00"
     description: Hypershift cluster template with agent workers
     digest: 3df4777fe00c42543bceaa53188bffb300c6c1469f98e85c4ac9845859dbcc3b
     name: hypershift-agent-template
@@ -13,7 +13,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-07-17T15:09:23.751307195+03:00"
+    created: "2023-07-17T15:13:37.97916433+03:00"
     description: Hypershift cluster template with agent workers
     digest: 6c102d58ca9a76c17681eb260e71be3e699801f292501d225261356cb3d6f8de
     name: hypershift-agent-template
@@ -25,7 +25,7 @@ entries:
   - annotations:
       cluster-template: "true"
     apiVersion: v2
-    created: "2023-07-17T15:09:23.752130822+03:00"
+    created: "2023-07-17T15:13:37.979721517+03:00"
     description: A Helm chart which installs Hypershift cluster using KubeVirt platform
     digest: 2b5d44df585930cc6b4c4129937b0434e8ebc957d08f6d084ae8d501f1dcabcb
     name: hypershift-kubevirt-template
@@ -36,7 +36,7 @@ entries:
   - annotations:
       cluster-template: "true"
     apiVersion: v2
-    created: "2023-07-17T15:09:23.75183884+03:00"
+    created: "2023-07-17T15:13:37.979539086+03:00"
     description: A Helm chart which installs Hypershift cluster using KubeVirt platform
     digest: f9dba9ee49c541c0610561b53dedb4330eec2b9f1f8b286df61fd1d004725321
     name: hypershift-kubevirt-template
@@ -49,7 +49,7 @@ entries:
       cluster-template: "true"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-17T15:09:23.753108323+03:00"
+    created: "2023-07-17T15:13:37.980087239+03:00"
     description: A Helm chart for Kubernetes
     digest: 0ed6be0fd8c1586060aa2bee1d7c6381f155f014bfced1d4599d1de08081d592
     name: hypershift-template
@@ -61,7 +61,7 @@ entries:
       cluster-template: "true"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-17T15:09:23.752589691+03:00"
+    created: "2023-07-17T15:13:37.979915278+03:00"
     description: A Helm chart for Kubernetes
     digest: 5ec6d9847042c66663daad6e2f26d8abcf4d81e44260caf48571d1608c50b193
     name: hypershift-template
@@ -69,4 +69,4 @@ entries:
     urls:
     - https://batzionb.github.io/cluster-templates-manifests/hypershift-template-0.0.1.tgz
     version: 0.0.1
-generated: "2023-07-17T15:09:23.750957232+03:00"
+generated: "2023-07-17T15:13:37.978872842+03:00"
