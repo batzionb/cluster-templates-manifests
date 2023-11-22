@@ -1,0 +1,13 @@
+apiVersion: gitops.hybrid-cloud-patterns.io/v1alpha1
+kind: Pattern
+metadata:
+  name: medical-pattern
+  namespace: openshift-operators
+spec:
+  gitOpsSpec:
+    operatorChannel: latest
+  clusterGroupName: hub
+  gitSpec:
+    pollInterval: 180
+    targetRepo: https://github.com/batzionb/medical-diagnosis
+    targetRevision: main
